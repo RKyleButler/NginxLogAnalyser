@@ -1,6 +1,10 @@
 https://roadmap.sh/projects/nginx-log-analyser
 
-Code runs as expected within BASH.
+Code runs as expected within BASH. Grabs the top five:
+* IP addresses w/the most requests
+* Most requested paths
+* Response status codes
+* User Agents
 
 I placed the "nginx-access.log" file within the "/var/log/nginx" directory. This is were google told me the real log file ends up.
 
